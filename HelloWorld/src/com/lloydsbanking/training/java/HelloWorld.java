@@ -1,10 +1,15 @@
 /**
  * @author shant
+ * HelloWorld Demo for LBG colleagues
  */
 package com.lloydsbanking.training.java;
 
 public class HelloWorld {
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
