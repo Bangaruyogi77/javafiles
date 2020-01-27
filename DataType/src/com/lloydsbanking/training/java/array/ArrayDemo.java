@@ -1,8 +1,7 @@
-package com.lloydsbanking.training.java;
+package com.lloydsbanking.training.java.array;
 class ArrayDemo {
     public static void main(String[] args) {
-    	
-    	for (int i=1000000; i>0; i--) {
+
         // declares an array of integers
         int[] anArray;
 
@@ -43,7 +42,5 @@ class ArrayDemo {
                            + anArray[8]);
         System.out.println("Element at index 9: "
                            + anArray[9]);
-    
-    	}
     }
 } 
