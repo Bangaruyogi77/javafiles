@@ -45,5 +45,12 @@ class ThreadJoiningDemo
 		} 
 
 		t3.start(); 
+//		try {
+//			t3.join();
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		System.out.println("Main thread finishing...");
 	} 
 } 

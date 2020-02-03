@@ -21,7 +21,7 @@ public class ControlFlowDemo {
 		// switch case
 		System.out.println("-----------------switch case block--------------------");
 
-		int day = 4;
+		int day = 1;
 		switch (day) {
 		case 1:
 			System.out.println("Monday");

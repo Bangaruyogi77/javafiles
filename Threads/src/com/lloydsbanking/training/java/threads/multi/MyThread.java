@@ -28,11 +28,11 @@ public class MyThread extends Thread {
 		System.out.println(name + " has just begun reading the large file");
 		try {
 			
-			File inFile = new File("C:\\Users\\shant\\Videos\\Captures\\screenshot_1.png");
+			File inFile = new File("C:\\Users\\shant\\Documents\\TCS\\Training\\filestore\\screenshot_1.png");
 			// read the file
 			FileInputStream iStream = new FileInputStream(inFile);
 			// write the file
-			File outFile = new File("C:\\Users\\shant\\Videos\\Captures\\Write\\" + this.name + inFile.getName());
+			File outFile = new File("C:\\Users\\shant\\Documents\\TCS\\Training\\filestore\\Write\\" + this.name + inFile.getName());
 			FileOutputStream fOut = new FileOutputStream(outFile);
 
 			byte[] buffer = new byte[BUFFER_SIZE];

@@ -3,16 +3,16 @@ package com.lloydsbanking.training.java.oo.interfacedemo;
 class USBDemo {
     public static void main(String[] args) {
 
-    	USBInterface device = new Keyboard();
-    	device.plugin();
-    	device.plugout();
+    	USBInterface keyBoard = new Keyboard();
+    	keyBoard.plugin();
+    	keyBoard.plugout();
     	
-    	device = new Printer();
-    	device.plugin();
-    	device.plugout();
+    	USBInterface printer = new Printer();
+    	printer.plugin();
+    	printer.plugout();
     	
-    	device = new Mouse();
-    	device.plugin();
-    	device.plugout();
+    	USBInterface mouse  = new Mouse();
+    	mouse.plugin();
+    	mouse.plugout();
     }
 } 

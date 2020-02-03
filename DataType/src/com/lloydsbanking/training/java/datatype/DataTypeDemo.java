@@ -17,7 +17,7 @@ public class DataTypeDemo {
 		
 		ClassLoader classLoader = DataTypeDemo.class.getClassLoader();
 		try {
-			DataTypeInterface classDataType = (DataTypeInterface) classLoader.loadClass(integerDemo).newInstance();
+			DataTypeInterface classDataType = (DataTypeInterface) classLoader.loadClass(byteDemo).newInstance();
 			classDataType.print();
 
 		}

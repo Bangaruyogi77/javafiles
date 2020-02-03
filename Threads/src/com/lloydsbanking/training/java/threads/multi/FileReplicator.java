@@ -12,7 +12,7 @@ public class FileReplicator {
     	MyThread myFileReplicator = new MyThread();
 //    	myFileReplicator.start();
     	
-    	for (int i = 0; i < 10; i++) {
+    	for (int i = 0; i < 20; i++) {
     		myFileReplicator = new MyThread("Thread " + i);
         	myFileReplicator.start();
         		
