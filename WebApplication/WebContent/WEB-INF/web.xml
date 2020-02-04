@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>WebApplication</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>helloworld</servlet-name>
+		<servlet-class>com.lloydsbanking.training.java.jee.servlets.HelloWorld</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>requestinfo</servlet-name>
+		<servlet-class>com.lloydsbanking.training.java.jee.servlets.RequestInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>session</servlet-name>
+		<servlet-class>com.lloydsbanking.training.java.jee.servlets.SessionExample</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>helloworld</servlet-name>
+		<url-pattern>/hello/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>requestinfo</servlet-name>
+		<url-pattern>/requestinfo/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>session</servlet-name>
+		<url-pattern>/session/*</url-pattern>
+	</servlet-mapping>
+</web-app>
